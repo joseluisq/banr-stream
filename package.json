@@ -1,0 +1,31 @@
+{
+  "name": "banr-stream",
+  "version": "1.0.0",
+  "description": "Prepend one-line package.json banner in pipeline.",
+  "repository": "joseluisq/banr-stream",
+  "license": "MIT",
+  "author": {
+    "name": "José Luis Quintana",
+    "url": "http://git.io/joseluisq"
+  },
+  "keywords": [
+    "banner",
+    "comment",
+    "one-line",
+    "header",
+    "transform",
+    "stream",
+    "package.json"
+  ],
+  "scripts": {
+    "test": "`npm bin`/tape test.js"
+  },
+  "dependencies": {
+    "banr": "*",
+    "through2": "*"
+  },
+  "devDependencies": {
+    "concat-stream": "*",
+    "tape": "*"
+  }
+}
