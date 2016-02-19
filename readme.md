@@ -21,10 +21,10 @@ process.stdin
 
 Output:
 
-```js
-$ echo "content of mymodule" | node example/stream.js
+```sh
+$ echo "content of my module" | node example/stream.js
 /*! MyModule v1.0.0 | MIT (c) 2016 John Doe */
-content of mymodule
+content of my module
 ```
 
 ## Contributions
