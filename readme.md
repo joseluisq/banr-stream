@@ -28,7 +28,7 @@ content of my module
 ```
 
 ## Contributions
-[Pull requests](https://github.com/joseluisq/banr-stream/pulls) and [issues](https://github.com/joseluisq/banr-stream/issues) are be welcome.
+[Pull requests](https://github.com/joseluisq/banr-stream/pulls) and [issues](https://github.com/joseluisq/banr-stream/issues) are welcome.
 
 ## License
 MIT license
