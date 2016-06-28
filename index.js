@@ -1,9 +1,16 @@
-var banr = require('banr');
-var through = require('through2');
-var banner = Buffer(banr(), 'utf8');
+var path = require('path')
+var banr = require('banr')
+var through = require('through2')
 
-module.exports = function() {
-  var stream = through();
-  stream.push(banner);
-  return stream;
-};
+module.exports = function (filename) {
+  var stream = through()
+
+  if (filename) {
+    filename = path.resolve(__dirname, filename)
+  }
+
+  var banner = Buffer(banr(filename), 'utf8')
+  stream.push(banner)
+
+  return stream
+}

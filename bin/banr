@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+var cwd = process.cwd()
+var banr = require(cwd)
+var minimist = require('minimist')
+
+var opts = minimist(process.argv.slice(2), {
+  alias: { f: 'file' },
+  string: 'file',
+  default: { f: '' }
+})
+
+process.stdin
+  .pipe(banr(opts.f))
+  .pipe(process.stdout)

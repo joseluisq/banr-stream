@@ -1,5 +1,5 @@
-var banr = require('../');
+var banr = require('../')
 
 process.stdin
   .pipe(banr())
-  .pipe(process.stdout);
+  .pipe(process.stdout)
