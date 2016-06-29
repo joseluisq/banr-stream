@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
-var cwd = process.cwd()
-var banr = require(cwd)
+var banr = require('../')
 var minimist = require('minimist')
 
 var opts = minimist(process.argv.slice(2), {
