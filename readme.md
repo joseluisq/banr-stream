@@ -24,7 +24,7 @@ Options:
 Example:
 
 ```sh
-$ echo "MY CONTENT FILE" | banr
+$ echo "MY CONTENT FILE" | banr-stream
 /*! Banr-stream v1.0.2 | MIT (c) 2016 José Luis Quintana */
 MY AWESOME CONTENT FILE
 ```

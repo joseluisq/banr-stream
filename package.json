@@ -1,14 +1,14 @@
 {
   "name": "banr-stream",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Prepend one-line package.json banner in pipeline.",
   "main": "index.js",
-  "bin": "bin/banr",
+  "bin": "bin/banr-stream",
   "scripts": {
     "test": "tape test.js"
   },
   "dependencies": {
-    "banr": "~1.0.2",
+    "banr": "~1.0.3",
     "minimist": "^1.2.0",
     "through2": "~2.0.1"
   },
