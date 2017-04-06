@@ -1,4 +1,3 @@
-var fs = require('fs')
 var banr = require('./')
 var test = require('tape')
 var concat = require('concat-stream')

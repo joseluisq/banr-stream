@@ -8,13 +8,13 @@
     "test": "tape test.js"
   },
   "dependencies": {
-    "banr": "~1.0.3",
+    "banr": "^1.0.4",
     "minimist": "^1.2.0",
-    "through2": "~2.0.1"
+    "through2": "^2.0.3"
   },
   "devDependencies": {
-    "concat-stream": "~1.6.0",
-    "tape": "~4.6.0"
+    "concat-stream": "^1.6.0",
+    "tape": "^4.6.3"
   },
   "repository": "joseluisq/banr-stream",
   "keywords": [
